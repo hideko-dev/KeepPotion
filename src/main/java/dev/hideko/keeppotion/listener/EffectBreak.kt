@@ -36,9 +36,6 @@ class EffectBreak: Listener {
         effs.forEach {
             player.removePotionEffect(it.type)
             player.addPotionEffect(it)
-            player.sendMessage("§cInspire ---")
-            player.sendMessage("${it.type.name} ${it.duration}")
-            player.sendMessage("§cEnd ---")
         }
     }
 
