@@ -1,0 +1,4 @@
+name: KeepPotion
+version: '1.0'
+main: dev.hideko.keeppotion.KeepPotion
+api-version: '1.20'
